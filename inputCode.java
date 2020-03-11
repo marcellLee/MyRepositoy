@@ -13,6 +13,7 @@ public class Foo {
     } catch(Exception e) {
       if (true) { // 2
         e.printStackTrace();
+        e.printStackTrace(); // test
       }
     }
 
